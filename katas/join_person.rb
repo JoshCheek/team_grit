@@ -11,7 +11,7 @@ class Person
   end
 end
 
-[Person.new("Josh", "Cheek"),
-Person.new("Rachel", "Parri"),
-Person.new("Rebekah", "Sosa")
-].join(",")
+[ Person.new("Josh", "Cheek"),
+  Person.new("Rachel", "Parri"),
+  Person.new("Rebekah", "Sosa")
+].join(", ")
