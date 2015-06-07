@@ -1,6 +1,5 @@
 def m(&b)
   b.call(100)  # => 101
-  b.call(50)   # => 51
 end            # => :m
 
 m do |n|
