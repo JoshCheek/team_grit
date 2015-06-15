@@ -1,26 +1,16 @@
 Review
-  Quick once-over for the inception games
-  Perform katas:
-    ```
-    Enumerable#map
-    Enumerable#select
-    Enumerable#reject
-    Enumerable#include?
-    Enumerable#all? {|obj| ... }
-    Enumerable#any? {|obj| ... }
-    Enumerable#none? {|obj| ... }
-    ```
+  5-10 min
+    Rachel:
+      Quick once-over for the initial inception games
+      Be precise in your language, it evalutes to "The Person, Josh" or "The String, Josh"
+      https://gist.github.com/JoshCheek/935de449adadd86253be
+    Rebekah:
+      Observe the process.
 
 Cover
-  The Command line katas
   Show the inception games
 
 Independent Work (in order of importance)
   Play inception games
-  Practice the command line katas
-  Figure out how to write:
-    Enumerable#find
-    Enumerable#take(n)
-    Enumerable#to_a
-  If naming is going well:
-    Clairvoyant URLs
+  Fill out as many of the Ruby cheatsheets as you can
+  Reflect for a bit
