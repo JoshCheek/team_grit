@@ -1,3 +1,7 @@
+# Video illustrating how to play this game:
+#   https://s3.amazonaws.com/josh.cheek/screencasts/rachel/InceptionGames.mp4
+
+
 # =====  Setup  =====
 # This is setup code, you may copy it for now, but attempt to move towards creating it from scratch.
 # The code does not have to be the same every time, it just needs to facilitate the games below.
