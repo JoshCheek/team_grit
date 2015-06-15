@@ -1,0 +1,26 @@
+Review
+  Quick once-over for the inception games
+  Perform katas:
+    ```
+    Enumerable#map
+    Enumerable#select
+    Enumerable#reject
+    Enumerable#include?
+    Enumerable#all? {|obj| ... }
+    Enumerable#any? {|obj| ... }
+    Enumerable#none? {|obj| ... }
+    ```
+
+Cover
+  The Command line katas
+  Show the inception games
+
+Independent Work (in order of importance)
+  Play inception games
+  Practice the command line katas
+  Figure out how to write:
+    Enumerable#find
+    Enumerable#take(n)
+    Enumerable#to_a
+  If naming is going well:
+    Clairvoyant URLs
