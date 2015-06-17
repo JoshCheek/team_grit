@@ -54,4 +54,14 @@ a = [1, 2, 3].to_s  # => "[1, 2, 3]"
     }               # => [1, 2, 3]
   .join(',')        # => "1,2,3"
 
-#pop, shift
+#pop
+# removes the last element from an array and returns a new array.  destructive
+a = [:a, :b, :c]  # => [:a, :b, :c]
+a.pop             # => :c
+a                 # => [:a, :b]
+
+#shift
+# removes the first element from an array and returns a new array
+a = [:a, :b, :c]  # => [:a, :b, :c]
+a.shift           # => :a
+a                 # => [:b, :c]
