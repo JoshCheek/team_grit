@@ -99,7 +99,7 @@ Questions
 
     ```
     $ ruby ./lib/chisel.rb my_input.markdown my_output.html
-    Converted my_input.markdown (6 lines) to my_output.html (8 lines)
+    Converted my_input.markdown (6 lines) to my_output.html (6 lines)
     ```
 
 
