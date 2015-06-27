@@ -27,6 +27,7 @@ Questions
 7. Is the input filename always the first argument to the program?
 8. A file is just...
 9. What are each of these?
+
    ```ruby
    a
    self.a
@@ -48,18 +49,22 @@ Questions
    1.23
    ```
 10. What is this:
+
    ```ruby
    puts
    ```
 11. What is this:
+
     ```ruby
     require "minitest/pride"
     ```
 12. If we ran this code, what will happen?
+
     ```ruby
     lol
     ```
 13. If we ran this code, what will happen?
+
     ```ruby
     def lol(lol)
       lol
