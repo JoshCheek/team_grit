@@ -1,0 +1,14 @@
+If you're excited about something, or something is making sense to you,
+go do that instead of what I'm talking about (maybe try drawing the stack
+with the local variables, self, the objects they all point at, etc).
+Your internal motivation and excitement is more important than my suggestions.
+But if it doesn't go well, come back to this.
+
+Find where the program `ruby` is, on your computer.
+Find where the file `logger` is on your computer.
+Find where the gem `mrspec` is on your computer.
+
+Go through katas/syntactic_sugar.rb
+
+Go through the quiz (quizzes/command_line.rb)
+Try to do it as fast as possible.
