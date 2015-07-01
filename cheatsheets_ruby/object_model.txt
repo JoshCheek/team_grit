@@ -1,0 +1,15 @@
+1. Object
+     instance variables
+     a class
+2. Classes
+     # class things
+       methods
+       superclass
+       constants
+     # object things
+       instance variables
+       a class
+3. Bindings
+    local variables
+    self
+    return value
