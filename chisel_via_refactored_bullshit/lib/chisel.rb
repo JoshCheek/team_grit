@@ -11,4 +11,4 @@ rendered_html = markdown.render(input_markdown)
 File.write(ARGV[1], rendered_html)
 
 # print the summary
-$stdout.puts "Converted my_input.markdown (6 lines) to my_output.html (6 lines)"
+$stdout.puts "Converted #{ARGV[0]} (#{input_markdown.split("\n").count} lines) to #{ARGV[1]} (#{rendered_html.split("\n").count} lines)"
