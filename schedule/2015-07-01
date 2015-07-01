@@ -1,0 +1,19 @@
+1. Everyone make a new window, type out the three types of things in Ruby, as hashes, with their attributes.
+2. What is everything here?
+   def lol(lol)
+     lol
+   end
+   lol = 123
+   lol lol
+3. What are the biggest inhibitors? (ie what do we want to spend the rest of our time on?)
+4. Chisel via refactored bullshit.
+   https://github.com/JoshCheek/team_grit/blob/master/quizzes/command_line.md#q19
+
+Interim work
+  * identify the similarities and differences between the different types of things we have available,
+    reflect on the implications of this structure,
+    is there anything we're missing? (I can think of 2)
+  * Go over the refactoring kata we did yesterday
+
+Afternoon?
+  * simple things in complex context (array is an array, regardless of whether we call it `ARGV`)
