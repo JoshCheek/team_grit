@@ -1,4 +1,4 @@
-1. Object
+1. Object aka Instances
      instance variables
      a class
 2. Classes
@@ -13,3 +13,32 @@
     local variables
     self
     return value
+4. Stack (probably an array of bindings)
+
+
+# how do we set an instance variable?
+@abc = 123
+stack[:last][:self][:instance_variables][:@abc] = 123
+stack.last.self.instance_variables[:@abc] = 123
+
+
+# how do we set a local variable?
+abc = 123
+stack[:last][:local_variables][:abc] = 123
+
+
+# how do we define a class with a method?
+class A
+  def b
+  end
+end
+
+Object.constants[:A] = {
+  methods:            {},
+  superclass:         Object,
+  constants:          {},
+  instance_variables: {},
+  class:              Class
+}
+
+Object.constants[:A][:methods][:b] = (code)

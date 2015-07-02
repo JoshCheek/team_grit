@@ -5,15 +5,26 @@
    end
    lol = 123
    lol lol
-3. What are the biggest inhibitors? (ie what do we want to spend the rest of our time on?)
+3. What are the biggest inhibitors?
+   (ie what do we want to spend the rest of our time on?)
 4. Chisel via refactored bullshit.
    https://github.com/JoshCheek/team_grit/blob/master/quizzes/command_line.md#q19
 
 Interim work
-  * identify the similarities and differences between the different types of things we have available,
+  * identify the similarities and differences between Classes, Instances, and Bindings,
     reflect on the implications of this structure,
-    is there anything we're missing? (I can think of 2)
-  * Go over the refactoring kata we did yesterday
+    is there anything we're missing? (I can think of 1)
+  * Redo the toplevel of chisel until you can do it in less than 5 minutes.
 
 Afternoon?
-  * simple things in complex context (array is an array, regardless of whether we call it `ARGV`)
+  * simple things in complex context
+    (array is an array, regardless of whether we call it `ARGV`)
+
+----
+Possible future exercises:
+  * Exercises doing "write the toplevel without going down the rabbit hole"
+    * Chess
+    * Enigma
+    * cat
+  * Kata for enumerables
+  * Modules and singleton classes?
