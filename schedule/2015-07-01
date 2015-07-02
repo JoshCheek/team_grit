@@ -20,6 +20,21 @@ Afternoon?
   * simple things in complex context
     (array is an array, regardless of whether we call it `ARGV`)
 
+Homework
+  First 5 min tomorrow, y'all are going to rewrite the object model.
+  So make sure you still have it down well enough to write it from memory again.
+
+  Then try to write the programs `echo`, `cat`, and `wc`
+  (descriptions here: https://github.com/JoshCheek/team_grit/blob/master/challenges/unix_utils.md
+
+  I also updated our object model notes, here
+  https://github.com/JoshCheek/team_grit/blob/master/cheatsheets_ruby/object_model.txt (edited)
+
+  Also, reflect on what we did at the end there.
+  What were the clues we used (think about the names).
+  What might be some things you would expect to see if you went through the source code
+  for something like https://github.com/stympy/faker, or https://github.com/rubygems/rubygems?
+
 ----
 Possible future exercises:
   * Exercises doing "write the toplevel without going down the rabbit hole"
