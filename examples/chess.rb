@@ -1,25 +1,34 @@
 class Game
   def initialize(input, output)
-    @input = input
+    @input  = input
     @output = output
+    @board  = Board.new
   end
 
   def play
-    setup the board
-    for every move
-      print the board
-      tell the player to take their turn
-      get the turn from the user
-      print the available moves
-      ask the user where to move the piece to
-      receive the input move
-      print an empty line
-      move the piece
-      tell the player that their move was executed
-      print an empty line
-    print the board
-    print an empty line
-    print game over, and who wins
+    while @board.playing?
+      @output.puts  display_board
+      @output.puts  display_turn
+      @output.print prompt_start_location
+      start_location = @input.gets.chomp
+
+      @output.puts  moves_for(start_location)
+      @output.print prompt_end_location
+      end_location = @input.gets.chomp
+
+      @output.puts
+      @baord.move start_location, end_location
+      @output.puts move_summary(start_location, end_location)
+      @output.puts
+    end
+
+    @output.puts display_board
+    @output.puts
+    @output.puts game_summary
+  end
+
+  def display_turn
+    "#{@board.current_player}'s turn."
   end
 end
 
