@@ -1,2 +1,1 @@
-require 'fileutils'
-puts FileUtils.pwd
+puts Dir.pwd
