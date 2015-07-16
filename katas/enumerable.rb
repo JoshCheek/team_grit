@@ -1,3 +1,6 @@
+# Kata is to implement your own Enumerable module.
+# Here is a video of me writing the code below: https://vimeo.com/133626457
+
 module MyEnumerable
   def to_a
     each_with_object([]) { |e, array| array << e }
